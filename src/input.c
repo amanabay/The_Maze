@@ -1,4 +1,5 @@
-#include "maze.h"
+#include "../include/maze.h"
+#include "../include/global.h"
 
 /**
  * input - checks user input for movement

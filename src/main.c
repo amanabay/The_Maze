@@ -1,4 +1,16 @@
-#include "../headers/maze.h"
+#include "../include/maze.h"
+#include "../include/global.h"
+
+/* Global Variables */
+SDL_Window *window;
+SDL_Renderer *renderer;
+SDL_Texture *texture;
+uint32_t buffer[SCREEN_HEIGHT][SCREEN_WIDTH];
+uint32_t tiles[TEX_COUNT][TEX_HEIGHT][TEX_WIDTH];
+Vec_2d pos;
+Vec_2d dir;
+Vec_2d plane;
+double time;
 
 /**
  * main - renders maze
@@ -8,16 +20,6 @@
  */
 int main(int argc, char *argv[])
 {
-	SDL_Window *window;
-	SDL_Renderer *renderer;
-	SDL_Texture *texture;
-	uint32_t buffer[SCREEN_HEIGHT][SCREEN_WIDTH];
-	uint32_t tiles[TEX_COUNT][TEX_HEIGHT][TEX_WIDTH];
-	Vec_2d pos;
-	Vec_2d dir;
-	Vec_2d plane;
-	double time;
-
 	int *maze; /* 2D array defining maze map */
 	char *map_name;
 	bool textured;

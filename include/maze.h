@@ -16,7 +16,6 @@
 #include <math.h>
 #include "structs.h" /* struct definitions */
 #include "macros.h" /* macros */
-#include "global.h"
 
 int *parse_map(char *filename, int *map);
 void load_textures();

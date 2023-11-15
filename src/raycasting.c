@@ -1,4 +1,5 @@
-#include "maze.h"
+#include "../include/maze.h"
+#include "../include/global.h"
 
 /**
  * raycast - casts rays and renders walls, floor, and ceiling

@@ -1,4 +1,5 @@
-#include "maze.h"
+#include "../include/maze.h"
+#include "../include/global.h"
 
 /**
  * walls - draws slice of wall to buffer

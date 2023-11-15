@@ -1,4 +1,5 @@
-#include "maze.h"
+#include "../include/maze.h"
+#include "../include/global.h"
 
 /**
  * parse_map - parses 2D array from file to create maze

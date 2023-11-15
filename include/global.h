@@ -1,10 +1,6 @@
 #ifndef GLOBAL_H
 #define GLOBAL_H
 
-#include "structs.h"
-#include "macros.h"
-#include "maze.h"
-
 extern SDL_Window *window;
 
 extern SDL_Renderer *renderer;

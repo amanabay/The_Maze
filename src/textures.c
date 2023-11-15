@@ -1,4 +1,5 @@
-#include "maze.h"
+#include "../include/maze.h"
+#include "../include/global.h"
 
 /**
  * load_textures - loads textures from file and puts
