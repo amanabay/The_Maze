@@ -1,4 +1,5 @@
-#include "maze.h"
+#include "../include/maze.h"
+#include "../include/global.h"
 
 /**
  * init_SDL - initializes SDL, window, and renderer
@@ -17,7 +18,7 @@ bool init_SDL(void)
 		success = false;
 	}
 
-	window = SDL_CreateWindow("Maze_Game", SDL_WINDOWPOS_UNDEFINED,
+	window = SDL_CreateWindow("The_Maze", SDL_WINDOWPOS_UNDEFINED,
 			SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN);
 	if (window == NULL)
 	{
