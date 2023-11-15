@@ -8,7 +8,7 @@ SRC = src/*.c
 NAME = maze
 
 # RM + flags
-RM = rm -f
+RM = rm -rf
 
 # Compiler flags
 CFLAGS = -O2 -g -Wall -Werror -Wextra -pedantic -Iheaders
